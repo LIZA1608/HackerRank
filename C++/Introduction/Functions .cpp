@@ -3,7 +3,6 @@
 #include <iostream>
 #include <cstdio>
 using namespace std;
-
 int max_of_four(int a, int b, int c, int d){
  if(a>b && a>c && a>d){
      return a;
@@ -19,8 +18,6 @@ int max_of_four(int a, int b, int c, int d){
  return d;
  }
 }
-
-
 int main() {
     int a, b, c, d;
     scanf("%d %d %d %d", &a, &b, &c, &d);
