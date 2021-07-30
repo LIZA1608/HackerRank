@@ -1,16 +1,10 @@
 /* https://www.hackerrank.com/challenges/c-tutorial-for-loop/problem */
-
 #include <iostream>
 #include <cstdio>
 using namespace std;
-
-int main() {
-    
-    string one[] = { "", "one ", "two ", "three ", "four ", 
-                 "five ", "six ", "seven ", "eight ", 
-                 "nine "
-               }; 
-
+int main()
+{
+    string one[] = { "", "one ", "two ", "three ", "four ",  "five ", "six ", "seven ", "eight ",  "nine " }; 
     int a,b;
     cin>>a>>b;
     for(int i=a;i<=b;i++){
@@ -24,7 +18,5 @@ int main() {
             cout<<"odd"<<endl;
         }
     }           
-
-
-    return 0;
+ return 0;
 }
