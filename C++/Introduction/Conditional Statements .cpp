@@ -1,11 +1,7 @@
 /* https://www.hackerrank.com/challenges/c-tutorial-conditional-if-else/problem */
 
 #include <bits/stdc++.h>
-
 using namespace std;
-
-
-
 int main()
 {
     int N;
@@ -31,6 +27,5 @@ int main()
     } else {
         cout << "Greater than 9" << endl;
     }
- 
-   return 0;
+    return 0;
 }
