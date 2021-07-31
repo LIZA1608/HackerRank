@@ -27,7 +27,7 @@ class Student {
 int main() {
     int n; // number of students
     cin >> n;
-    Student *s = new Student[n]; // an array of n students
+    Student *s = new Student[n];// an array of n students
     
     for(int i = 0; i < n; i++){
         s[i].input();
