@@ -4,9 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class Solution {
-
-  
-        /* Enter your code here. Print output to STDOUT. */
+  /* Enter your code here. Print output to STDOUT. */
         public static void main(String[] args) {
         
         Scanner sc=new Scanner(System.in);
