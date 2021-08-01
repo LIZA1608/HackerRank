@@ -21,7 +21,6 @@ class Box{
         b = B.b;
         h = B.h;
     }
-    
     int getLenght(){
         return l;
     }
