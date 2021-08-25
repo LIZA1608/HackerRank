@@ -1,11 +1,9 @@
 #!/bin/bash
 
-read char
-case $char in
-	Y|y) echo "YES"
-	;;
-	N|n) echo "NO"
-	;;
-	*) echo "Invalid"
-	;;
-esac
+read x
+if [[ $x == "y" || $x == "Y" ]]
+then
+echo "YES"
+else
+echo "NO"
+fi
